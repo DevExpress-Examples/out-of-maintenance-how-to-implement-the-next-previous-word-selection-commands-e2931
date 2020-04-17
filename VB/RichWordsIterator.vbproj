@@ -71,55 +71,42 @@
   <ItemGroup>
     <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Pdf.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.RichEdit.v20.1.Export.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Printing.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Data.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Data.Desktop.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Utils.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.XtraEditors.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Docs.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Docs.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Office.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.RichEdit.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.XtraPrinting.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Images.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.Images.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>E:\DXDLLS\20.1.2\DevExpress.XtraRichEdit.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
