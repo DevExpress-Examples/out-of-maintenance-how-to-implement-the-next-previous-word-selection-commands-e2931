@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Windows.Forms
 Imports DevExpress.XtraRichEdit
 Imports DevExpress.Services
@@ -11,11 +10,12 @@ Imports DevExpress.Portable.Input
 Namespace RichWordsIterator
 	Partial Public Class Form1
 		Inherits Form
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
 
-		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
+		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 			LoadContent()
 			SubstituteKeyboardService()
 		End Sub
@@ -35,17 +35,20 @@ Namespace RichWordsIterator
 
 	Public Class MyKeyboardHandlerServiceWrapper
 		Inherits KeyboardHandlerServiceWrapper
+
 		Public Sub New(ByVal service As IKeyboardHandlerService)
 			MyBase.New(service)
 		End Sub
 
-		Private privateRichEditControl As RichEditControl
+'INSTANT VB NOTE: The field richEditControl was renamed since Visual Basic does not allow fields to have the same name as other class members:
+		Private richEditControl_Conflict As RichEditControl
+
 		Public Property RichEditControl() As RichEditControl
 			Get
-				Return privateRichEditControl
+				Return richEditControl_Conflict
 			End Get
 			Set(ByVal value As RichEditControl)
-				privateRichEditControl = value
+				richEditControl_Conflict = value
 			End Set
 		End Property
 
