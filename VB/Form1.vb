@@ -6,6 +6,7 @@ Imports DevExpress.Services
 Imports DevExpress.XtraRichEdit.Services.Implementation
 Imports DevExpress.XtraRichEdit.Commands
 Imports DevExpress.XtraRichEdit.Internal
+Imports DevExpress.Portable.Input
 
 Namespace RichWordsIterator
 	Partial Public Class Form1
@@ -48,11 +49,11 @@ Namespace RichWordsIterator
 			End Set
 		End Property
 
-		Public Overrides Sub OnKeyDown(ByVal e As KeyEventArgs)
+		Public Overrides Sub OnKeyDown(ByVal e As PortableKeyEventArgs)
 			Select Case e.KeyCode
-				Case Keys.F6
+				Case PortableKeys.F6
 					SelectNextWord()
-				Case Keys.F7
+				Case PortableKeys.F7
 					SelectPreviousWord()
 				Case Else
 					MyBase.OnKeyDown(e)

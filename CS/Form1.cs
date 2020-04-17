@@ -5,6 +5,7 @@ using DevExpress.Services;
 using DevExpress.XtraRichEdit.Services.Implementation;
 using DevExpress.XtraRichEdit.Commands;
 using DevExpress.XtraRichEdit.Internal;
+using DevExpress.Portable.Input;
 
 namespace RichWordsIterator {
     public partial class Form1 : Form {
@@ -41,12 +42,12 @@ namespace RichWordsIterator {
             set { richEditControl = value; }
         }
 
-        public override void OnKeyDown(KeyEventArgs e) {
+        public override void OnKeyDown(PortableKeyEventArgs e) {
             switch (e.KeyCode) {
-                case Keys.F6:
+                case PortableKeys.F6:
                     SelectNextWord();
                     break;
-                case Keys.F7:
+                case PortableKeys.F7:
                     SelectPreviousWord();
                     break;
                 default:
